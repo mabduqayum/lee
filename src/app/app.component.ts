@@ -30,7 +30,7 @@ export class AppComponent {
         this.channel2.newTime();
       }
       this.time = this.channel1.totalTime + this.channel2.totalTime;
-      await new Promise(r => setTimeout(r, 50));
+      await new Promise(r => setTimeout(r, 100));
     }
     this.isFinished = true;
     console.log('Task finished!')
