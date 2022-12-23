@@ -1,0 +1,98 @@
+:host {
+  display: flex;
+  //align-items: center;
+  justify-content: center;
+  column-gap: 4rem;
+  height: calc(100vh - 4rem);
+  padding-top: 4rem;
+}
+
+
+main {
+  position: relative;
+
+  app-graph {
+    //width: 600px;
+    //height: min-content;
+    //max-width: 100%;
+  }
+
+  div {
+    position: absolute;
+    font-size: 52px;
+    line-height: 1;
+    width: 68px;
+    text-align: center;
+  }
+
+  .circle1 {
+    left: calc(50% - 25px);
+    top: 2%;
+    color: var(--dark-blue);
+    font-size: 92px;
+    width: auto;
+  }
+
+  .triangle1,
+  .triangle2 {
+    color: var(--dark-red);
+    width: 153px;
+    aspect-ratio: 2;
+  }
+
+  .triangle1 {
+    top: 26%;
+    left: 0;
+  }
+
+  .triangle2 {
+    top: 26%;
+    right: 0;
+  }
+
+  .square1,
+  .square2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
+    width: 138px;
+    color: var(--dark-green);
+  }
+
+
+  .square1 {
+    top: 65.2%;
+    left: 1.3%;
+  }
+
+  .square2 {
+    top: 65.2%;
+    right: 1.3%;
+  }
+
+  .trash1,
+  .trash2 {
+    font-size: 40px;
+  }
+
+  .trash1 {
+    top: 67%;
+    left: 33%;
+  }
+
+  .trash2 {
+    top: 67%;
+    right: 33%;
+  }
+}
+
+aside {
+  display: flex;
+  //row-gap: 1rem;
+  flex-direction: column;
+
+  .selected-val {
+    align-self: flex-start;
+  }
+}

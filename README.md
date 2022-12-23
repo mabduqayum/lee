@@ -1,3 +1,11 @@
+# Задание
+
+В системе передачи цифровой информации передается речь в цифровом виде. Речевые пакеты передаются через два транзитных канала, буферируясь в накопителях перед каждым каналом. Время передачи пакета по каналу составляет 5 мс. Пакеты поступают через 6±3мс. Пакеты, передававшиеся более 10 мс, на выходе системы уничтожаются, так как их появление в декодере значительно снизит качество передаваемой речи. Уничтожение более 30% пакетов недопустимо. При достижении такого уровня система за счет ресурсов ускоряет передачу до 4 мс на канал. При снижении уровня до приемлемого происходит отключение ресурсов. Смоделировать 10 часов работы системы. Определить частоту уничтожения пакетов и частоту подключения ресурсов.
+
+# Question
+
+In a digital information transmission system, speech is transmitted in digital form. Voice packets are transmitted through two backhaul channels, buffered in accumulators before each channel. The packet transmission time over the channel is 5 ms. Packets arrive in 6±3ms. Packets transmitted for more than 10 ms are destroyed at the output of the system, since their appearance in the decoder will significantly reduce the quality of the transmitted speech. Destruction of more than 30% of packages is unacceptable. When this level is reached, the system at the expense of resources accelerates the transmission up to 4 ms per channel. When the level drops to an acceptable level, resources are disabled. Simulate 10 hours of system operation. Determine how often packets are destroyed and how often resources are connected.
+
 # Lee
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.

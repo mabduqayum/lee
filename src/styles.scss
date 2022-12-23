@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+
+  @media (prefers-reduced-motion: reduce) {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  min-height: 100%;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  //overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  border-style: none;
+}
+
+:root {
+  --dark-blue: #046;
+  --dark-red: #600;
+  --dark-green: #060;
+}
